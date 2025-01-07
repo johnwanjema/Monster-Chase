@@ -1,0 +1,25 @@
+# Unity generated files
+Library/
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+
+# Build results
+Build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
