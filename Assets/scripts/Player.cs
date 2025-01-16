@@ -66,7 +66,7 @@ public class Player : MonoBehaviour
 
     void PlayerJump()
     {
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButton("Jump") && isGrounded)
         {
             isGrounded = false;
             myBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
@@ -77,7 +77,6 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(GROUND_TAG))
         {
-            Debug.Log("We landed on the ground");
             isGrounded = true;
         }
     }
