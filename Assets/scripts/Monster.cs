@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
-
+    [HideInInspector]
     public  float speed;
+
     private Rigidbody2D mybody;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -11,7 +12,6 @@ public class Monster : MonoBehaviour
     {
         mybody =  GetComponent<Rigidbody2D>();
 
-        speed = 7f;
     }
 
     // Update is called once per frame
