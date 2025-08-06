@@ -1,6 +1,6 @@
 #  Monster Chase
 
-![Project Logo](Assets/Mainmenu.png)
+![Project Logo](Assets/MainMenu.png)
 
 ##  Created By
 
